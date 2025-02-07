@@ -1,0 +1,82 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  --primary-color: #16a34a;
+  --primary-hover: #15803d; 
+  --text-color: #374151;      
+  --bg-color: #f8fafc;        
+  --error-color: #dc2626;     
+  --error-text: #991b1b;      
+  --success-color: #16a34a;   
+  --card-bg: #ffffff;         
+  --section-bg: #f1f5f9;      
+  --border-color: #d1d5db;    
+  --text-light: #64748b;      
+  --footer-bg: #374151;       
+  --footer-text: #f8fafc;     
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --disabled-color: #9ca3af;     
+
+  --search-bg: #ffffff;  
+  --search-text: #374151;        
+  --search-placeholder: #9ca3af; 
+  --search-border: #d1d5db;      
+  --search-focus-border: #16a34a;
+
+  --button-text: #ffffff;      
+  --button-disabled: #9ca3af; 
+  --divider-color: #e5e7eb;   
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.text-success {
+  color: var(--success-color);
+}
+
+.text-error {
+  color: var(--error-color);
+}
+
+.heading-primary {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.heading-secondary {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: var(--text-color);
+}
+
+.text-center {
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .heading-primary {
+    font-size: 2rem;
+  }
+  
+  .heading-secondary {
+    font-size: 1.5rem;
+  }
+}
